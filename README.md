@@ -4,6 +4,8 @@ sat-vis
 Satellite Orbit Visualization in 3D
 --------
 
+![sat-vis](https://github.com/user-attachments/assets/d3035ed0-a0cc-4e39-87a7-8bd5fc63d97e) 
+
 sat-vis is a Node.js application that renders a 3D visualization of satellite orbits using Cesium. The app fetches real-time Two-Line Element (TLE) data from [Celestrak](https://celestrak.org/) to display satellite trajectories interactively in a browser.
 
 Overview
