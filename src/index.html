@@ -2,27 +2,14 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Satellite Visualization</title>
+  <title>Satellite Visualization - BoostedSpaceProgram</title>
   <script src="https://cesium.com/downloads/cesiumjs/releases/1.125/Build/Cesium/Cesium.js"></script>
   <link href="https://cesium.com/downloads/cesiumjs/releases/1.125/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-    #cesiumContainer {
-      width: 100%;
-      height: 100vh;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-  </style>
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
   <div id="cesiumContainer"></div>
   <script src="https://cdn.jsdelivr.net/npm/satellite.js/dist/satellite.min.js"></script>
-  <script src="app.js"></script>
+  <script type="module" src="./assets/js/app.js"></script>
 </body>
 </html>
